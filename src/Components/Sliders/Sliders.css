@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Guthen Bloots';
+    src: url('./../../Assets/Fonts/GuthenBloots/Guthen-Bloots.ttf') format('truetype');
+}
+
+.swiper {
+    width: 100%;
+}
+
+.TrustedText {
+    font-family: Guthen Bloots;
+    font-size: 26px;
+}
+
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SchoolSliderContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 85px 100px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 0px 0px 0px, rgba(0, 0, 0, 0.186) 0px 10px 24px 0px;
+}
+
+.SchoolSliderContainer img {
+    width: 150px;
+    height: 40px;
+}
+
+.ArrowDown {
+    width: 50px;
+}
+
+.TrustedContainer {
+    display: flex;
+    align-items: center;
+}
+
+.SchoolsContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.SchoolsContainerResponsive {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.SchoolLogo {
+    width: 150px;
+}
+
+.SchoolsContainerResponsive {
+    display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .SchoolSliderContainer {
+        padding: 85px 10px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .SchoolsContainer {
+        display: none;
+    }
+    .SchoolsContainerResponsive {
+        display: flex;
+    }
+    .SchoolsContainerResponsive img {
+        width: 300px;
+    }
+}

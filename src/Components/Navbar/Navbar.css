@@ -1,0 +1,430 @@
+@font-face {
+    font-family: 'Modern Era';
+    src: url('./../../Assets/Fonts/ModernEra/Modern-Era-Medium.ttf') format('truetype');
+}
+
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 180px;
+    width: 100%;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-family: Modern Era;
+    font-size: 16px;
+    font-weight: 600;
+    z-index: 9999;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+}
+
+.Navbar {
+    opacity: 1;
+}
+
+.Navbar.show {
+    opacity: 1;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.Navbar.animated {
+    animation: 2s slideIn;
+}
+
+.HyerLogo img {
+    width: 150px;
+}
+
+.NavbarMid {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+#active {
+    color: #000000;
+}
+
+.NavbarMid a {
+    color: #847e7c;
+    padding: 5px 1px;
+}
+
+.NavbarMid a:hover {
+    color: #000000;
+}
+
+.NavbarRight {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    box-sizing: border-box;
+}
+
+.NavbarRespnv {
+    display: flex;
+    flex-direction: row;
+    gap: inherit;
+    box-sizing: border-box;
+}
+
+.NavbarRespnv2 {
+    display: flex;
+    flex-direction: row;
+    gap: inherit;
+    box-sizing: border-box;
+}
+
+.NavbarRight a:not(.DropDown a,
+.HelpDropDown a) {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 5px 1px;
+}
+
+.NavbarRight a {
+    color: #847e7c;
+}
+
+.NavbarRight a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.DropDown {
+    display: none;
+    z-index: 5;
+    position: absolute;
+    top: 20px;
+    width: 219px;
+    opacity: 0;
+    padding-top: 30px;
+    background-color: transparent;
+    animation-duration: 0.3s;
+    animation-fill-mode: both;
+}
+
+.DropDownContent {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.DropDownContent a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.DropDownContent .f {
+    border-bottom: 1px solid #ccc;
+}
+
+.DropDown a {
+    text-decoration: none;
+    color: #847e7c;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.DropDown a:hover {
+    font-weight: 600;
+    color: #000000;
+}
+
+.DropDown:hover {
+    display: block;
+}
+
+.Work:hover .DropDown {
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.3s ease-in-out both;
+}
+
+.Work {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.BarsIcon {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: inherit;
+    cursor: pointer;
+}
+
+.BarsIcon img {
+    width: 14px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.5;
+        transform: translateY(-10px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0.5;
+        transform: translateY(-10px)
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .Navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        font-size: 18px;
+        top: 0;
+        padding: 5px 60px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .Navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        font-size: 18px;
+        top: 0;
+        padding: 5px 10px;
+    }
+    .NavbarRight a:not(.DropDown a,
+    .HelpDropDown a) {
+        padding: 2px;
+    }
+    .DropDown {
+        display: none;
+        z-index: 5;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 300px;
+        opacity: 0;
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+    }
+    .HyerLogo img {
+        width: 120px;
+    }
+    .NavbarRespnv {
+        display: flex;
+    }
+    .BarsIcon {
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: inherit;
+        cursor: pointer;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .BarsIcon img {
+        width: 18px;
+    }
+    .NavbarRespnv2 {
+        display: flex;
+        gap: 20px;
+    }
+    .NavbarRight {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1020px) {
+    .Navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        font-size: 18px;
+        top: 0;
+    }
+    .NavbarRight a:not(.DropDown a,
+    .HelpDropDown a) {
+        padding: 2px;
+    }
+    .DropDown {
+        display: none;
+        z-index: 5;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 300px;
+        opacity: 0;
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+    }
+    .HyerLogo img {
+        width: 120px;
+    }
+    .NavbarRespnv {
+        display: none;
+    }
+    .BarsIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: inherit;
+        cursor: pointer;
+        padding: 20px;
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 50%;
+    }
+    .BarsIcon img {
+        width: 20px;
+    }
+    .NavbarRespnv2 {
+        display: flex;
+        gap: 20px;
+    }
+    .NavbarRight {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .NavbarRight {
+        display: none;
+        flex-direction: row;
+        gap: 30px;
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .NavbarMid {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .Navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+        width: 100%;
+        font-size: 18px;
+        top: 0;
+    }
+    .NavbarRight a:not(.DropDown a,
+    .HelpDropDown a) {
+        padding: 2px;
+    }
+    .DropDown {
+        display: none;
+        z-index: 5;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 300px;
+        opacity: 0;
+        animation-duration: 0.3s;
+        animation-fill-mode: both;
+    }
+    .HyerLogo img {
+        width: 90px;
+    }
+    .NavbarRespnv {
+        display: none;
+    }
+    .BarsIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: inherit;
+        cursor: pointer;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .BarsIcon img {
+        width: 18px;
+    }
+    .NavbarRespnv2 {
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2px;
+        flex-wrap: nowrap;
+        width: 100%;
+        font-size: 14px;
+        background-color: white;
+    }
+    .HyerLogo img {
+        width: 100px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .NavbarRespnv {
+        display: none;
+    }
+    .NavbarRight a:not(.DropDown a,
+    .HelpDropDown a) {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        box-sizing: border-box;
+        text-decoration: none;
+        color: #000;
+        padding: 1px;
+    }
+    .NavbarRespnv2 {
+        display: none;
+    }
+}

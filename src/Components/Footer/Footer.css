@@ -1,0 +1,312 @@
+.footer {
+    background-color: #1e1c1b;
+    clip-path: polygon(0 150px, 120px 0, 100% 70px, 100% 100%, 0 100%);
+    ;
+    padding: 170px 200px 150px 200px;
+}
+
+.reinventing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 150px;
+}
+
+.footer-badge {
+    width: 100px;
+}
+
+.footer-title {
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: 55px;
+    width: 750px;
+}
+
+.footer-special {
+    font-family: Guthen Bloots;
+    font-size: 70px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 50px 0px 50px 250px;
+    flex-wrap: wrap;
+}
+
+.products-header {
+    font-size: 30px;
+    color: #fff;
+}
+
+.product-links {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.product-links a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Modern Era Regular;
+}
+
+.coming {
+    color: #66605d;
+}
+
+.IconLink {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.privacy-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #999999;
+    font-family: Modern Era Regular;
+    padding-top: 100px;
+    gap: 130px;
+}
+
+.crisis {
+    flex: 50%;
+    padding-top: 50px;
+    border-top: 1px solid #999999;
+    display: flex;
+    flex-direction: column;
+}
+
+.privacy {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-top: 1px solid #999999;
+    padding-top: 50px;
+}
+
+.privacy h2 {
+    font-size: 20px;
+}
+
+.checks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+}
+
+.privacy-logo {
+    width: 100px;
+}
+
+.marks-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.recom {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-size: 18px;
+}
+
+.crisis-help {
+    font-size: 20px;
+}
+
+.call-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    line-height: 10px;
+}
+
+.suicide-header {
+    font-size: 14px;
+}
+
+.suicide-number {
+    color: white;
+    font-size: 14px;
+}
+
+.terms-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: Modern Era Regular;
+    padding-top: 100px;
+}
+
+.terms span {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+@media screen and (max-width: 1300px) {
+    .footer {
+        padding: 150px 100px 150px 100px;
+    }
+    .footer-title {
+        width: 100%;
+    }
+    .reinventing {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .footer-title {
+        font-family: Recoleta Black;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        line-height: 55px;
+        width: 750px;
+    }
+    .footer-special {
+        font-family: Guthen Bloots;
+        font-size: 50px;
+    }
+    .footer-links {
+        padding: 0px;
+    }
+    .privacy-container {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .privacy {
+        flex: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .terms-container {
+        border-top: 1px solid #999999;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer {
+        padding: 150px 50px 150px 50px;
+    }
+    .footer-title {
+        font-family: Recoleta Black;
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        line-height: 55px;
+        width: 750px;
+    }
+    .footer-special {
+        font-family: Guthen Bloots;
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        padding: 150px 50px 150px 50px;
+    }
+    .footer-title {
+        font-family: Recoleta Black;
+        font-size: 34px;
+        color: rgb(255, 255, 255);
+        font-weight: 400;
+        line-height: 55px;
+        width: 750px;
+    }
+    .footer-special {
+        font-family: Guthen Bloots;
+        font-size: 34px;
+    }
+    .footer-badge {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer-links {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .products-header {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer {
+        padding: 150px 20px 50px 20px;
+        text-align: center;
+    }
+    .recom {
+        font-size: 15px;
+        gap: 10px;
+    }
+    .crisis-help {
+        font-size: 18px;
+    }
+    .call-line {
+        flex-direction: row;
+        line-height: normal;
+    }
+    .terms-container {
+        font-size: 16px;
+        padding-top: 50px;
+        line-height: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .call-line {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .call-line {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        line-height: normal;
+    }
+    .checks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}

@@ -1,0 +1,492 @@
+.progress {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+
+.progress-minor {
+    color: #847e7c;
+    font-size: 16px;
+    font-family: Modern Era Regular;
+    font-weight: bold;
+}
+
+.progress-main {
+    color: #211e1d;
+    font-size: 70px;
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+}
+
+.progress-main-diff {
+    color: #211e1d;
+    font-size: 70px;
+    font-family: Guthen Bloots;
+}
+
+.ProgressBar {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 200px 150px 200px;
+    background-color: white;
+}
+
+.progress-arrow {
+    width: 130px;
+}
+
+.progress-arrow-respn {
+    display: none;
+    width: 100px;
+}
+
+.offer-card-container {
+    padding: 150px 270px 150px 270px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.offer-card-intro {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.offer-card-arrow {
+    width: 50px;
+}
+
+.offer-card-header {
+    font-size: 26px;
+    line-height: 39px;
+    font-family: Guthen Bloots;
+    font-weight: 400;
+    color: #211e1d;
+}
+
+.offer-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 65px 60px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.52) 0px 0px 0px 0px, rgba(0, 0, 0, 0.186) 0px 10px 24px 0px;
+}
+
+.navigating {
+    flex: 30%;
+}
+
+.for-child {
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.for-child-header {
+    font-size: 34px;
+}
+
+.for-child-content {
+    padding-left: 20px;
+    border-left: 1px solid #cdcdcd;
+}
+
+.navigating-text {
+    font-size: 23px;
+    font-family: Modern Era Regular;
+    font-weight: 400;
+    line-height: 31.625px;
+    color: #211e1d;
+}
+
+.offer-card-features {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.card-features-img {
+    width: 60px;
+}
+
+.card-features-text {
+    color: #847e7c;
+    font-size: 16px;
+    font-family: Modern Era Regular;
+}
+
+.bar-img {
+    width: 50px;
+}
+
+.bar-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.bar-card-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: Modern Era Regular;
+}
+
+.bar-card-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #888888;
+    font-family: Modern Era Regular;
+}
+
+.LoginPageBody {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.LogInContainer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    height: 100%;
+    background-color: #f8f4f2;
+    padding: 100px;
+    border-radius: 24px;
+}
+
+.login-header {
+    font-size: 32px;
+}
+
+.account-header {
+    font-size: 32px;
+    text-align: center;
+}
+
+.login-email {
+    font-size: 24px;
+    line-height: 0;
+}
+
+.LoginMain {
+    width: 450px;
+    box-sizing: border-box;
+}
+
+.LoginMain a {
+    text-decoration: none;
+}
+
+.LoginMain p {
+    font-size: 16px;
+    font-family: Modern Era Regular;
+}
+
+.Input-Login {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sign {
+    text-decoration: none;
+    color: #ff7e3e;
+}
+
+.Segment {
+    background-color: #e1d9d5;
+    padding: 5px;
+    border-radius: 25px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Segment button {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 90px;
+    font-size: 14px;
+    font-family: Modern Era Regular;
+}
+
+.Segment button.active {
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    width: 90px;
+    font-size: 14px;
+    background-color: #fff;
+}
+
+.Input-group {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.terms-privacy {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    font-size: 16px;
+}
+
+.terms-privacy p {
+    font-size: 16px;
+}
+
+.terms-privacy span {
+    color: #ff7e3e;
+}
+
+.checkbox {
+    font-size: 200px;
+}
+
+.check-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: -5px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+}
+
+.check-container input:checked~.checkmark {
+    background-color: #ffffff;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.check-container input:checked~.checkmark:after {
+    display: block;
+}
+
+.check-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid rgb(0, 0, 0);
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media screen and (max-width: 500px) {
+    .LoginMain {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .LogInContainer {
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .offer-card-container {
+        padding: 150px 100px 150px 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .offer-card-container {
+        padding: 250px 20px 150px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .offer-card {
+        justify-content: space-between;
+        gap: 40px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .progress-arrow {
+        width: 70px;
+    }
+    .ProgressBar {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 0px 100px 150px 100px;
+    }
+    .progress-minor {
+        color: #847e7c;
+        font-size: 16px;
+        font-family: Modern Era Regular;
+        font-weight: bold;
+    }
+    .progress-main {
+        color: #211e1d;
+        font-size: 50px;
+        font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    }
+    .progress-main-diff {
+        color: #211e1d;
+        font-size: 50px;
+        font-family: Guthen Bloots;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .offer-card {
+        flex-direction: column;
+        ;
+        gap: 50px;
+    }
+    .offer-card-features {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: normal;
+    }
+    .bar-card-title {
+        font-size: 20px;
+    }
+    .bar-card-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .progress-arrow {
+        width: 70px;
+    }
+    .ProgressBar {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: row;
+        padding: 100px 50px 150px 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .progress-arrow {
+        display: none;
+    }
+    .progress-arrow-respn {
+        display: block;
+        width: 50px;
+    }
+    .ProgressBar {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .offer-card-container {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .navigating-text {
+        font-size: 18px;
+        font-family: Modern Era Regular;
+        font-weight: 400;
+        line-height: 25px;
+        color: #211e1d;
+    }
+    .for-child-header {
+        font-size: 20px;
+    }
+    .offer-card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 5px;
+        background-color: rgb(255, 255, 255);
+        padding: 30px 10px;
+        box-shadow: none;
+    }
+    .Input-group {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .login-email {
+        font-size: 24px;
+        line-height: normal;
+    }
+    .Segment {
+        background-color: #e1d9d5;
+        padding: 5px;
+        border-radius: 25px;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .LoginPageBody {
+        height: auto;
+    }
+}

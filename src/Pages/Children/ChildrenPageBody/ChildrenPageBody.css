@@ -1,0 +1,63 @@
+.ChildrenPageBody {
+    background: #f8f4f2;
+}
+
+.sectionTwo {
+    clip-path: polygon(0 20%, 6% 11%, 100% 0, 100% 100%, 0 100%);
+    background-color: rgb(255, 255, 255);
+}
+
+.bar-card-container {
+    padding: 50px 270px 150px 270px;
+    background-color: white;
+}
+
+#heade {
+    font-size: 30px;
+}
+
+.x {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+    gap: 1px;
+    border-top: 1px solid #cdcdcd;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.multi-touch-header-min {
+    font-family: Modern Era Regular;
+    font-size: 20px;
+    color: #847e7c;
+}
+
+#fg {
+    padding-bottom: 200px;
+}
+
+@media screen and (max-width: 1500px) {
+    .bar-card-container {
+        padding: 50px 50px 150px 50px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .bar-card-container {
+        padding: 50px 50px 150px 50px;
+    }
+    .x {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .bar-card-container {
+        padding: 50px 10px 150px 10px;
+    }
+    .x {
+        display: flex;
+        flex-direction: column;
+    }
+}

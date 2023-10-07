@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'CustomFont';
+    src: url('./../../Assets/Fonts/ModernEra/Modern-Era-Medium.ttf') format('truetype');
+}
+
+button {
+    font-family: Modern Era;
+    min-width: 150px;
+}
+
+#ButtonWhite {
+    padding: 17px;
+    background-color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color: #211e1d;
+    font-family: Modern Era;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#ButtonWhite:hover {
+    animation: changewhite 1s alternate infinite;
+}
+
+@keyframes changewhite {
+    0% {
+        outline: white;
+    }
+    100% {
+        background-color: #ffd7c7;
+    }
+}
+
+#ButtonOrange {
+    padding: 17px;
+    background-color: #ff7e3e;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color: #211e1d;
+    font-family: Modern Era;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#ButtonOrange:hover {
+    animation: changewhite 1s alternate infinite;
+}
+
+#ButtonLogIn {
+    padding: 17px;
+    background-color: #ff7e3e;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    color: #211e1d;
+    font-family: Modern Era;
+    float: right;
+    min-width: 120px;
+}
+
+#ButtonLogIn:hover,
+#ButtonSignUp:hover {
+    animation: changewhite 1s alternate infinite;
+}
+
+#ButtonSignUp {
+    padding: 17px;
+    background-color: #ff7e3e;
+    border-radius: 8px;
+    font-size: 16px;
+    border: none;
+    color: #211e1d;
+    font-family: Modern Era;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 150px;
+}
+
+#ButtonFixed {
+    padding: 20px;
+    background-color: #ff8556;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+#ButtonFixed:hover {
+    background-color: #ffaa89;
+}
+
+@media screen and (max-width: 500px) {
+    #ButtonFixed {
+        padding: 10px;
+    }
+}

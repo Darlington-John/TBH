@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Modern Era Regular';
+    src: url('./../../Assets/Fonts/ModernEra/Modern-Era-Regular.ttf') format('truetype');
+}
+
+.Overlay {
+    display: none;
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: width 0.5s
+}
+
+.Overlay-content {
+    position: relative;
+    top: 15%;
+    width: auto;
+    background-color: #ffffff;
+    margin: 0px 35px 0px 20px;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.Overlay a {
+    padding: 14px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #00000093;
+    display: block;
+    transition: 0.3s;
+    border-bottom: 1px solid rgb(204 204 204);
+    font-weight: bold;
+    font-family: Modern Era Regular;
+}
+
+.Overlay a:hover,
+.Overlay a:focus {
+    color: #f1f1f1;
+}
+
+.MiniLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+}
+
+.MiniLinks a {
+    font-size: 20px;
+    text-decoration: underline;
+    border-bottom: none;
+}
+
+@media screen and (max-width: 1020px) {
+    .Overlay {
+        display: block;
+    }
+}
+
+.Overlay {
+    display: block;
+}
+
+.Overlay {
+    display: block;
+}
+
+@media screen and (max-width: 1020px) {
+    .Overlay {
+        display: block;
+    }
+}
+
+.Overlay {
+    display: block;
+}

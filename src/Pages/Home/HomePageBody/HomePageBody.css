@@ -1,0 +1,719 @@
+.HomePageBody {
+    background: linear-gradient(to bottom, #f8f4f2 50%, #ffffff 50%)
+}
+
+.IntroSectionBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SchoolsBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 300px 50px 300px;
+    background-color: #fffffc;
+    clip-path: polygon(0 32%, 6% 11%, 100% 0, 100% 100%, 0 100%);
+}
+
+@font-face {
+    font-family: 'Recoleta Black';
+    src: url('./../../../Assets/Fonts/Recoleta/Recoleta-Black.woff') format('webopen');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@700&display=swap');
+h1 {
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    font-size: 70px;
+    color: #000000;
+}
+
+@font-face {
+    font-family: 'Guthen Bloots';
+    src: url('./../../../Assets/Fonts/GuthenBloots/Guthen-Bloots.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Modern Era Regular';
+    src: url('./../../../Assets/Fonts/ModernEra/Modern-Era-Regular.ttf') format('truetype');
+}
+
+.mental-health-header {
+    line-height: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+    width: 500px;
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    font-size: 70px;
+    color: #000000;
+}
+
+.mental-health-header2 {
+    font-size: 60px;
+}
+
+.mental-health {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
+
+.mental-health-paragraph {
+    font-family: Modern Era Regular;
+    font-size: 24px;
+    width: 85%;
+    line-height: 32px;
+    font-weight: 500;
+    color: #211e1d;
+}
+
+.students-span {
+    font-family: Guthen Bloots;
+    font-size: 94px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.mental-health {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80%;
+}
+
+.mental-health-header-container {
+    height: 316px;
+}
+
+.mental-health-header-container2 {
+    height: 370px;
+}
+
+.intro-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 150px 150px;
+    box-sizing: border-box;
+}
+
+.intro-section-img-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 50%;
+    position: relative;
+}
+
+.mental-health-container {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.mm {
+    width: 800px;
+    position: absolute;
+    left: -180px;
+}
+
+.KI2-img-container {
+    width: 750px;
+    position: absolute;
+    left: -150px;
+}
+
+.multiple-touch-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 200px 100px 200px;
+    background-color: #fcffff;
+}
+
+.multi-touch-points-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 50%;
+    padding: 100px 20px 100px 100px;
+}
+
+.multi-touch-text-features {
+    border-left: 1px solid #eee;
+    padding-left: 40px;
+    padding-right: 120px;
+}
+
+.multi-touch-header-main {
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    ;
+    font-size: 36px;
+    color: #000000;
+    line-height: 40px;
+}
+
+.multi-touch-points-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 50%;
+    position: relative;
+}
+
+.touch-points-img {
+    width: 700px;
+    position: absolute;
+    left: -100px;
+    bottom: -470px;
+}
+
+.touch-points-img2 {
+    position: absolute;
+    left: -150px;
+    bottom: 60px;
+    width: 150px;
+}
+
+.multi-touch-header {
+    font-family: Guthen Bloots;
+    font-size: 26px;
+    color: #000000;
+    font-weight: normal;
+}
+
+.deals {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 10px;
+    font-family: Modern Era Regular;
+}
+
+.deals:hover .deal-img {
+    opacity: 1;
+    animation: MoveIn 0.5s ease
+}
+
+ul ::marker {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+}
+
+.deal-img {
+    width: 40px;
+}
+
+.deal-paragraph {
+    font-size: 16px;
+    color: #847e7c;
+}
+
+.deal-header {
+    font-size: 17px;
+    color: #211e1d;
+}
+
+.deal-list {
+    font-size: 15px;
+    color: #847e7c;
+}
+
+@keyframes MoveIn {
+    30% {
+        transform: translateX(-10px)
+    }
+    100% {
+        transform: translateX(0px)
+    }
+}
+
+.who-we-help-container {
+    padding: 50px 200px 150px 200px;
+    background-color: white;
+}
+
+.help-img {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.help-container {
+    background-color: #fd7e40;
+    clip-path: polygon(0 0, 100% 90px, 100% 100%, 0 100%);
+    padding-top: 50px;
+    padding-left: 80px;
+    height: 1000px;
+}
+
+.help-header {
+    font-size: 26px;
+    font-family: Guthen Bloots;
+    font-weight: 500;
+    width: 90%;
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+.help-main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 100px;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.world-class-experts-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 200px 250px 200px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+.world-class-experts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 50%;
+    padding-right: 160px;
+}
+
+.experts-header {
+    font-size: 26px;
+    font-family: Guthen Bloots;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.experts-main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-left: 2px solid #eee;
+    padding-left: 40px;
+}
+
+.experts-main-header {
+    font-size: 34px;
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    ;
+}
+
+.experts-main-paragraph {
+    font-family: Modern Era Regular;
+    font-size: 16px;
+    color: #888888;
+}
+
+.expert-slideshow {
+    flex: 50%;
+}
+
+.experts {
+    position: relative;
+    width: 100%;
+    background-color: #211e1d;
+    max-width: 100%;
+}
+
+.expert-name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    position: absolute;
+    z-index: 6;
+    top: 470px;
+    left: 80%;
+}
+
+.crop-img {
+    width: 40px;
+}
+
+.expert-name {
+    font-family: Modern Era Regular;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.degree {
+    color: #000;
+}
+
+.fade-div {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    width: 100%;
+    transition: opacity 1s ease-in-out;
+    display: none;
+}
+
+.fade-div.active {
+    opacity: 1;
+    display: block;
+}
+
+.frame {
+    z-index: 2;
+    width: 100%;
+    position: absolute;
+}
+
+.expertImg {
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    top: 10px;
+}
+
+@media screen and (max-width: 1600px) {
+    .IntroSectionBody {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 150px;
+    }
+    .mental-health {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        width: 100%;
+    }
+    .multiple-touch-points {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 40px;
+        background-color: #fffffc;
+    }
+    .intro-section-img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 50%;
+        position: relative;
+    }
+    .touch-points-img {
+        width: 700px;
+        position: static;
+    }
+    .multi-touch-points-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        flex: 50% 1;
+        padding: 10px;
+    }
+    .touch-points-img2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .IntroSectionBody {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 150px 50px;
+    }
+    .SchoolsBody {
+        padding: 150px 200px 150px 200px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .mental-health {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        width: 80%;
+        padding-left: 10px;
+    }
+    .world-class-experts-container {
+        padding: 50px 40px 250px 40px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .who-we-help-container {
+        padding: 50px;
+        background-color: white;
+        box-sizing: border-box;
+    }
+    .help-main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 50px;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .intro-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .intro-section-img-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: 50%;
+        position: static;
+    }
+    .mm {
+        width: 800px;
+        position: static;
+    }
+    .KI2-img-container {
+        width: 750px;
+        position: static;
+    }
+    .mental-health {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding-left: 0px;
+    }
+    .SchoolsBody {
+        padding: 150px 100px 150px 100px;
+    }
+    .multiple-touch-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 200px 150px 200px;
+        background-color: #fcffff;
+    }
+    .world-class-experts {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .SchoolsBody {
+        padding: 200px 10px 100px 10px;
+        text-align: center;
+    }
+    .multi-touch-text-features {
+        border-left: 1px solid #eee;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    .multi-touch-points-text {
+        padding: 10px 20px 100px 20px;
+    }
+    .help-img-container {
+        display: none;
+    }
+    .help-accordion {
+        width: 100%;
+    }
+    .help-main {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 50px;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 100px;
+    }
+    .help-container {
+        padding: 30px;
+        height: auto;
+    }
+    .world-class-experts-container {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        padding: 50px 40px 700px 40px;
+    }
+    .experts {
+        position: relative;
+        width: 700px;
+        background-color: #211e1d;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .mm {
+        width: 100%;
+        position: static;
+    }
+    .KI2-img-container {
+        width: 100%;
+        position: static;
+    }
+    .IntroSectionBody {
+        padding: 10px;
+        padding-top: 100px;
+    }
+    .mental-health-paragraph {
+        font-family: Modern Era Regular;
+        font-size: 24px;
+        width: 90%;
+        line-height: 32px;
+        font-weight: 500;
+    }
+    .multiple-touch-points {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background-color: #fffffc;
+    }
+    .touch-points-img {
+        width: 90%;
+        position: static;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .experts {
+        position: relative;
+        width: 500px;
+        background-color: #211e1d;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mental-health-header {
+        line-height: 52px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        width: 100%;
+        font-size: 40px;
+    }
+    .students-span {
+        font-family: Guthen Bloots;
+        font-size: 50px;
+        color: #000000;
+        font-weight: normal;
+    }
+    .IntroSectionBody {
+        padding-top: 100px;
+    }
+    .mental-health-paragraph {
+        font-size: 20px;
+    }
+    .experts {
+        position: relative;
+        width: 400px;
+        background-color: #211e1d;
+    }
+    .experts-header {
+        font-size: 26px;
+        font-family: Guthen Bloots;
+        font-weight: 500;
+        padding-bottom: 0px;
+    }
+    .experts-main-header {
+        font-size: 30px;
+    }
+    .world-class-experts-container {
+        padding: 50px 40px 500px 40px;
+    }
+    .mental-health-header-container {
+        height: auto;
+    }
+    .mental-health-header2 {
+        line-height: 42px;
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        width: 100%;
+        font-size: 35px;
+    }
+    .mental-health-header-container2 {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .who-we-help-container {
+        padding: 20px;
+    }
+    .help-container {
+        padding: 10px;
+        height: auto;
+    }
+    .help-header {
+        padding-top: 60px;
+    }
+    .experts-main {
+        border-left: none;
+        padding-left: 0px;
+    }
+    .world-class-experts {
+        padding-right: 00px;
+    }
+    .experts {
+        position: relative;
+        width: 300px;
+        background-color: #211e1d;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .multi-touch-header-main {
+        font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+        ;
+        font-size: 26px;
+        color: #000000;
+        line-height: 30px;
+    }
+    .multi-touch-text-features {
+        border-left: 1px solid #eee;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .world-class-experts-container {
+        padding: 50px 20px 400px 20px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .experts {
+        position: relative;
+        width: 200px;
+        background-color: #211e1d;
+    }
+}

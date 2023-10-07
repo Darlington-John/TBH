@@ -1,0 +1,102 @@
+.mental-health-header-container2 {
+    height: auto;
+}
+
+.mental-health {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.mental-health.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes slideInRight {
+    0% {
+        transform: translateX(-100%)rotate(0deg);
+    }
+    25% {
+        transform: translateX(-75%)rotate(-20deg);
+    }
+    50% {
+        transform: translateX(-50%)rotate(0deg);
+    }
+    75% {
+        transform: translateX(-25%)rotate(-10deg);
+    }
+    100% {
+        transform: translateX(0%)rotate(0deg);
+    }
+}
+
+.mental-health.animated {
+    animation: 0.7s slideInRight;
+}
+
+.intro-section-img-container {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.intro-section-img-container.show {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@keyframes scaleIncrease {
+    0% {
+        transform: scale(0);
+        ;
+    }
+    100% {
+        transform: scale(1);
+        ;
+    }
+}
+
+.intro-section-img-container.animated {
+    animation: 1s scaleIncrease;
+}
+
+.mental-health-header2 {
+    line-height: 66px;
+    gap: 25px;
+    width: 550px;
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+    font-size: 60px;
+    color: #000000;
+}
+
+.child-hero-container {
+    width: 750px;
+    position: absolute;
+    left: -100px;
+    top: -350px;
+}
+
+@media screen and (max-width: 1300px) {
+    .child-hero-container {
+        width: 800px;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .child-hero-container {
+        width: 100%;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .mental-health-header2 {
+        line-height: 42px;
+        display: block;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5px;
+        width: 100%;
+        font-size: 35px;
+    }
+}

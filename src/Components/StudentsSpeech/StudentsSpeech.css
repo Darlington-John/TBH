@@ -1,0 +1,176 @@
+.StudentsSpeechContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 50px 200px 150px 200px;
+    background-color: #fff;
+}
+
+.StudentFeedContainer {
+    display: flex;
+}
+
+.StudentImg {
+    display: flex;
+}
+
+.StudentFeed {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+.StudentHeader {
+    font-family: Guthen Bloots;
+    font-size: 26px;
+}
+
+.StudentsSpeech {
+    padding-left: 50px;
+    padding-right: 70px;
+    border-left: 1px solid #E1D9D5;
+}
+
+.StudentParagraph {
+    font-size: 34px;
+    font-family: 'Recoleta Black', 'Averia Serif Libre', cursive;
+}
+
+.StudentSchool {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    font-family: 'Modern Era Regular';
+}
+
+.StudentSchool img {
+    width: 130px;
+}
+
+.StudentId {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.StudentName {
+    font-size: 16px;
+    color: #ff7e3e;
+    font-weight: bold;
+}
+
+.Location {
+    font-weight: 600;
+    color: #211e1d;
+}
+
+@media screen and (max-width: 1500px) {
+    .StudentsSpeechContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 50px 20px 150px 20px;
+        background-color: #fff;
+    }
+    .StudentImg {
+        flex: 50%;
+    }
+    .StudentsSpeech {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left: 1px solid #E1D9D5;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .StudentsSpeechContainer {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 50px 20px 150px 20px;
+        background-color: #fff;
+    }
+    .StudentsSpeech {
+        padding-left: 20px;
+        padding-right: 20px;
+        border-left: 1px solid #E1D9D5;
+    }
+    .StudentImg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .StudentsSpeechContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 50px 100px 150px 100px;
+        background-color: #fff;
+    }
+    .StudentImg {
+        width: 100%;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .StudentsSpeechContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+        padding: 50px 30px 150px 30px;
+        background-color: #fff;
+    }
+    .StudentImg {
+        width: 100%;
+        order: 2;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .StudentsSpeechContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 0;
+        padding: 50px 20px 50px 20px;
+        background-color: #fff;
+    }
+    .StudentImg {
+        width: 80%;
+        order: 2;
+    }
+    .StudentSchool {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding-top: 20px;
+    }
+    .StudentParagraph {
+        font-size: 24px;
+        font-family: Recoleta Black;
+    }
+    .StudentsSpeech {
+        padding-left: 5px;
+        padding-right: 0px;
+        border-left: 1px solid #ffffff;
+    }
+    svg {
+        height: 500px;
+    }
+}
